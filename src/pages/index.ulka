@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home | {% siteMetaData.title %}</title>
+    {% $importUlka('/src/components/metaTags.ulka') %}
+      {% $importUlka('/src/components/styles.ulka') %}
+  </head>
+  <body class="dark">
+    <div class="container">
+      <main>
+      
+      {% $importUlka('/src/components/nav.ulka') %}
+
+        <h2>Hey, I am Roshan 👋</h2>
+        <blockquote>creator of ulka js</blockquote>
+        <br />
+        If you have any queries regarding ulka ssg or this starter template dm me at 
+        <a style="text-decoration: underline;" href="https://twitter.com/acharyaroshanji">twitter</a>
+  <br/>
+  <br/>
+        You can find this starter template at 
+        <a style="text-decoration: underline;" href="https://github.com/ulkajs/ulka-starter-default">Github</a>
+      </main>
+      <footer>
+        &copy; 2020, Ulka Js
+      </footer>
+    </div>
+
+   {% $importUlka('/src/components/darkMode.ulka') %}
+  </body>
+</html>
